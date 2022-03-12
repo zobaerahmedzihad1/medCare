@@ -133,17 +133,31 @@ a {
 /* Home css part end here */
 
 .our-facilities {
-  padding: 2rem 9%;
+  padding: 3rem 9%;
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(4, 1fr);
 
-  margin-bottom: 400px;
+  /* margin-bottom: 400px; */
 }
 .facility {
   border: 0.2rem solid var(--green);
   text-align: center;
-  padding: 3.5rem;
+  padding: 1rem 3.4rem;
   border-radius: 0.4rem;
   box-shadow: var(--box-shadow);
 }
+.facility span {
+  color: var(--green);
+  font-size: 3rem;
+}
+.facility h3 {
+  font-size: 3rem;
+  color: var(--black);
+  text-shadow: var(--text-shadow);
+}
+.facility p {
+  padding-top: 1rem;
+  color: var(--black);
+}
+/* Our Facilities css part end here */
