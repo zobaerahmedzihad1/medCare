@@ -34,7 +34,7 @@ a {
 /* common css end */
 
 #header {
-  padding: 2rem 9%;
+  padding: .6rem 7%;
   top: 0;
   right: 0;
   left: 0;
@@ -47,21 +47,21 @@ a {
   justify-content: space-between;
 }
 #header .logo {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--black);
 }
 #header i {
   color: var(--green);
 }
 #header .navbar a {
-  font-size: 1.8rem;
+  font-size: 1.1rem;
   padding-left: 1.5rem;
   color: var(--light-color);
 }
 #header .navbar a:hover {
   color: var(--green);
 }
-.menu-btn {
+/* .menu-btn {
   font-size: 2.5rem;
   background: #eee;
   padding: 1rem 1.5rem;
@@ -89,7 +89,7 @@ a {
   display: block;
   margin: 2.5rem;
 }
-/* home section */
+
 section {
   padding: 2rem 9%;
 }
@@ -118,4 +118,4 @@ section {
   color: var(--light-color);
   line-height: 1.8rem;
   padding: 1rem 0;
-}
+} */
