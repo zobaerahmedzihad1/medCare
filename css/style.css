@@ -212,3 +212,83 @@ a {
   color: var(--light-color);
   padding-bottom: 1rem;
 }
+
+/* our service part css end from here */
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 9%;
+}
+.about-image {
+  width: 100%;
+}
+.about-text {
+  padding: 5rem 1rem 1rem;
+}
+.about-text h3 {
+  font-size: 2.9rem;
+  color: var(--black);
+  text-shadow: var(--text-shadow);
+  line-height: 1.5;
+}
+.about-text p {
+  font-size: 1rem;
+  color: var(--light-color);
+  line-height: 1.8rem;
+  padding: 1rem 0;
+}
+/* about us section css end from here. */
+
+#our-doctors {
+  margin-bottom: 700px;
+}
+
+.doctors {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  padding: 3rem 9%;
+  background: #f5f5f5;
+}
+.doctor {
+  border: var(--border);
+  border-radius: 0.3rem;
+  box-shadow: var(--box-shadow);
+  padding: 1.5rem;
+  text-align: center;
+}
+.doctor-image img {
+  height: 15rem;
+  border: 0.2rem solid var(--green);
+  border-radius: 0.4rem;
+}
+.personal-information h4 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--black);
+}
+.personal-information small {
+  color: var(--green);
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.icons {
+  padding-top: 0.8rem;
+}
+.icon{
+  padding: .2rem;
+}
+.icon i {
+  border: 0.15rem solid var(--green);
+  color: var(--green);
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  transition: all linear 0.3s;;
+}
+.icon i:hover{
+  color: #fff;
+  background-color: var(--green);
+}
