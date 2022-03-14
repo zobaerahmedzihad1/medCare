@@ -240,9 +240,9 @@ a {
 }
 /* about us section css end from here. */
 
-#our-doctors {
+/* #our-doctors {
   margin-bottom: 700px;
-}
+} */
 
 .doctors {
   display: grid;
@@ -257,6 +257,7 @@ a {
   box-shadow: var(--box-shadow);
   padding: 1.5rem;
   text-align: center;
+  background: #fff;
 }
 .doctor-image img {
   height: 15rem;
@@ -277,8 +278,8 @@ a {
 .icons {
   padding-top: 0.8rem;
 }
-.icon{
-  padding: .2rem;
+.icon {
+  padding: 0.2rem;
 }
 .icon i {
   border: 0.15rem solid var(--green);
@@ -286,9 +287,58 @@ a {
   padding: 0.7rem;
   border-radius: 0.3rem;
   font-size: 1.4rem;
-  transition: all linear 0.3s;;
+  transition: all linear 0.3s;
 }
-.icon i:hover{
+.icon i:hover {
+  color: #fff;
+  background-color: var(--green);
+}
+
+/* our doctors part end. */
+
+#book-now {
+  height: 800px;
+}
+.booking-image {
+  width: 79%;
+}
+.booking-form {
+  border: var(--border);
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+#book-now .title h2 {
+  text-align: center;
+}
+.booking-form h4 {
+  color: var(--black);
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+#book-now .content {
+  padding: 0 9%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.form-content .box {
+  display: block;
+  margin: 1rem auto;
+  width: 32rem;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border: 0.13rem solid var(--green);
+  border-radius: 0.3rem;
+}
+.book-btn {
+  border: 0.15rem solid var(--green);
+  color: var(--green);
+  padding: 0.3rem 1.3rem;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  transition: all linear 0.3s;
+}
+.book-btn:hover {
   color: #fff;
   background-color: var(--green);
 }
