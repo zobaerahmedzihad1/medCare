@@ -63,6 +63,7 @@ a {
   background-color: var(--green);
   color: #fff;
   padding: 0.4rem 0.5rem;
+  margin-left: 0.3rem;
   border-radius: 0.2rem;
   transition: all linear 0.4s;
 }
@@ -75,7 +76,7 @@ a {
   background: #fff;
   padding: 0.4rem 0.5rem;
   border-radius: 0.2rem;
-  margin-left: 0.5rem;
+  margin-left: 0.6rem;
 }
 
 /* heading */
