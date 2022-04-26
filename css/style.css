@@ -16,6 +16,7 @@
   box-sizing: border-box;
   outline: none;
 }
+
 h1,
 h2,
 h3,
@@ -26,6 +27,7 @@ p {
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
   display: inline-block;
@@ -44,6 +46,7 @@ a {
   color: var(--light-color);
   text-shadow: var(--text-shadow);
 }
+
 .title h2 span {
   color: var(--green);
 }
@@ -59,6 +62,7 @@ a {
   box-shadow: var(--box-shadow);
   border-radius: 0.4rem;
 }
+
 .btn span {
   background-color: var(--green);
   color: #fff;
@@ -67,10 +71,12 @@ a {
   border-radius: 0.2rem;
   transition: all linear 0.4s;
 }
+
 .btn:hover {
   color: #fff;
   background: var(--green);
 }
+
 .btn:hover span {
   color: var(--green);
   background: #fff;
@@ -94,22 +100,27 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+
 #header .logo {
   font-size: 2rem;
   color: var(--black);
 }
+
 #header i {
   color: var(--green);
 }
+
 #header .navbar a {
   font-size: 1.1rem;
   padding-left: 1.5rem;
   color: var(--light-color);
   text-transform: capitalize;
 }
+
 #header .navbar a:hover {
   color: var(--green);
 }
+
 .menu-btn {
   font-size: 2.5rem;
   background: #eee;
@@ -118,6 +129,7 @@ a {
   cursor: pointer;
   display: none;
 }
+
 /* Navbar part end. */
 
 #home {
@@ -130,18 +142,22 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
 #home .image img {
   width: 100%;
 }
+
 .content {
   padding-top: 10rem;
 }
+
 #home h3 {
   font-size: 2.9rem;
   color: var(--black);
   text-shadow: var(--text-shadow);
   line-height: 1.8;
 }
+
 #home p {
   font-size: 1.12rem;
   color: var(--light-color);
@@ -157,6 +173,7 @@ a {
   grid-gap: 2rem;
   grid-template-columns: repeat(4, 1fr);
 }
+
 .facility {
   border: 0.2rem solid var(--green);
   text-align: center;
@@ -165,19 +182,23 @@ a {
   box-shadow: var(--box-shadow);
   cursor: pointer;
 }
+
 .facility span {
   color: var(--green);
   font-size: 3rem;
 }
+
 .facility h3 {
   font-size: 3rem;
   color: var(--black);
   text-shadow: var(--text-shadow);
 }
+
 .facility p {
   padding-top: 1rem;
   color: var(--black);
 }
+
 /* Our Facilities css part end here */
 
 #our-services {
@@ -185,6 +206,7 @@ a {
   padding: 0 9% 2rem;
   background: #f5f5f5;
 }
+
 /*  */
 
 .services {
@@ -192,6 +214,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
 }
+
 .service {
   border: 0.2rem solid var(--green);
   padding: 2.5rem;
@@ -199,15 +222,18 @@ a {
   border-radius: 0.4rem;
   box-shadow: var(--box-shadow);
 }
+
 .service i {
   color: var(--green);
   font-size: 3rem;
 }
+
 .service h3 {
   font-size: 1.6rem;
   color: var(--black);
   padding: 0.7rem 0;
 }
+
 .service p {
   font-size: 1rem;
   color: var(--light-color);
@@ -221,24 +247,29 @@ a {
   grid-template-columns: repeat(2, 1fr);
   padding: 0 9%;
 }
+
 .about-image {
   width: 100%;
 }
+
 .about-text {
   padding: 5rem 1rem 1rem;
 }
+
 .about-text h3 {
   font-size: 2.9rem;
   color: var(--black);
   text-shadow: var(--text-shadow);
   line-height: 1.5;
 }
+
 .about-text p {
   font-size: 1rem;
   color: var(--light-color);
   line-height: 1.8rem;
   padding: 1rem 0;
 }
+
 /* about us section css end from here. */
 
 /* #our-doctors {
@@ -252,6 +283,7 @@ a {
   padding: 3rem 9%;
   background: #f5f5f5;
 }
+
 .doctor {
   border: var(--border);
   border-radius: 0.3rem;
@@ -260,28 +292,34 @@ a {
   text-align: center;
   background: #fff;
 }
+
 .doctor-image img {
   height: 15rem;
   border: 0.2rem solid var(--green);
   border-radius: 0.4rem;
 }
+
 .personal-information h4 {
   font-size: 1.7rem;
   font-weight: 700;
   text-transform: capitalize;
   color: var(--black);
 }
+
 .personal-information small {
   color: var(--green);
   font-size: 1rem;
   text-transform: capitalize;
 }
+
 .icons {
   padding-top: 0.8rem;
 }
+
 .icon {
   padding: 0.2rem;
 }
+
 .icon i {
   border: 0.15rem solid var(--green);
   color: var(--green);
@@ -290,6 +328,7 @@ a {
   font-size: 1.4rem;
   transition: all linear 0.3s;
 }
+
 .icon i:hover {
   color: #fff;
   background-color: var(--green);
@@ -299,6 +338,7 @@ a {
 .booking-image {
   width: 79%;
 }
+
 .booking-form {
   border: var(--border);
   box-shadow: var(--box-shadow);
@@ -306,19 +346,23 @@ a {
   border-radius: 0.5rem;
   padding: 1rem;
 }
+
 #book-now .title h2 {
   text-align: center;
 }
+
 .booking-form h4 {
   color: var(--black);
   font-size: 2rem;
   text-transform: capitalize;
 }
+
 #book-now .content {
   padding: 0 9%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
 .form-content .box {
   display: block;
   margin: 1rem auto;
@@ -328,6 +372,7 @@ a {
   border: 0.13rem solid var(--green);
   border-radius: 0.3rem;
 }
+
 .book-btn {
   border: 0.15rem solid var(--green);
   color: var(--green);
@@ -336,6 +381,7 @@ a {
   font-size: 1.2rem;
   transition: all linear 0.3s;
 }
+
 .book-btn:hover {
   color: #fff;
   background-color: var(--green);
@@ -345,18 +391,18 @@ a {
 
 /* clients review */
 #clients-review {
-  height: 700px;
-
   background: #f5f5f5;
-  margin: 4rem 0;
-  padding: 0 9%;
+  margin: 4rem 0 0 0;
+
 }
 
 .reviews {
   display: grid;
   grid-gap: 2rem;
+  padding: 1rem 7rem 5rem 7rem;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .review {
   border: var(--border);
   border-radius: 0.5rem;
@@ -389,7 +435,64 @@ a {
   border-radius: 50%;
   border: 0.2rem solid #fff;
 }
+
 .review p {
   color: var(--light-color);
   padding: 2rem 0;
+}
+
+/* our blog section */
+
+.blogs {
+  display: grid;
+  grid-gap: 2rem;
+  padding: 1rem 7rem 5rem 7rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blog {
+  border: 3px solid #16a085;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.blog-img img {
+  height: 230px;
+  width: 340px;
+  cursor: pointer;
+}
+/* .blog .blog-img img{
+overflow: hidden;
+transition: all ease .03s;
+}
+.blog:hover .blog-img img {
+  transform: scale(1.2);
+} */
+
+.blog-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-icons a:hover {
+  color: #16a085;
+}
+
+.blog-icons a {
+  color: #778080;
+}
+
+.blog-icons a i {
+  color: #16a085;
+}
+
+.blog-title {
+  padding: .5rem 0;
+  font-size: 2rem;
+}
+
+.blog-content p {
+  color: #778080;
+  font-size: .9rem;
+  padding-bottom: .7rem;
 }
